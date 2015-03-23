@@ -1,0 +1,35 @@
+PODS:
+  - ObjectivePGP (0.3.2)
+  - OpenSSL-Universal (1.0.1.l)
+  - UNNetPGP (0.8.1):
+    - OpenSSL-Universal
+
+DEPENDENCIES:
+  - ObjectivePGP (from `https://github.com/krzyzanowskim/ObjectivePGP.git`, branch `master`)
+  - OpenSSL-Universal (from `https://github.com/krzyzanowskim/OpenSSL.git`, branch `master`)
+  - UNNetPGP (from `https://raw.github.com/upnext/unnetpgp/master/UNNetPGP.podspec`)
+
+EXTERNAL SOURCES:
+  ObjectivePGP:
+    :branch: :master
+    :git: https://github.com/krzyzanowskim/ObjectivePGP.git
+  OpenSSL-Universal:
+    :branch: :master
+    :git: https://github.com/krzyzanowskim/OpenSSL.git
+  UNNetPGP:
+    :podspec: https://raw.github.com/upnext/unnetpgp/master/UNNetPGP.podspec
+
+CHECKOUT OPTIONS:
+  ObjectivePGP:
+    :commit: d82a10fef5a8cd99981038119f303fe18404c847
+    :git: https://github.com/krzyzanowskim/ObjectivePGP.git
+  OpenSSL-Universal:
+    :commit: e25dd35ec70bd532928903f7d261a8c6ff41838a
+    :git: https://github.com/krzyzanowskim/OpenSSL.git
+
+SPEC CHECKSUMS:
+  ObjectivePGP: 6b914df7f516dda5491d7bf8ab08d1a1ce5a21da
+  OpenSSL-Universal: 24a64519d66593681596172840ab4ac4d081d548
+  UNNetPGP: 112d12c81d8a479553e26315d2512be61c8f12af
+
+COCOAPODS: 0.35.0

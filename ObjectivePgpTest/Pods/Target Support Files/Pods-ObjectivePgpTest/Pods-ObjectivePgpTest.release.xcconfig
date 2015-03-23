@@ -1,0 +1,7 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/ObjectivePGP" "${PODS_ROOT}/Headers/Public/ObjectivePGP/ObjectivePGP" "${PODS_ROOT}/Headers/Public/OpenSSL-Universal" "${PODS_ROOT}/Headers/Public/OpenSSL-Universal/openssl" "${PODS_ROOT}/Headers/Public/UNNetPGP"
+LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/ObjectivePGP/lib-ios" "$(PODS_ROOT)/OpenSSL-Universal/lib-ios" "$(PODS_ROOT)/OpenSSL-Universal/lib-ios"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/ObjectivePGP" -isystem "${PODS_ROOT}/Headers/Public/ObjectivePGP/ObjectivePGP" -isystem "${PODS_ROOT}/Headers/Public/OpenSSL-Universal" -isystem "${PODS_ROOT}/Headers/Public/OpenSSL-Universal/openssl" -isystem "${PODS_ROOT}/Headers/Public/UNNetPGP"
+OTHER_LDFLAGS = -ObjC -l"ObjectivePGP" -l"Pods-ObjectivePgpTest-ObjectivePGP" -l"Pods-ObjectivePgpTest-OpenSSL-Universal" -l"Pods-ObjectivePgpTest-UNNetPGP" -l"bz2" -l"crypto" -l"ssl" -l"z"
+OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
+PODS_ROOT = ${SRCROOT}/Pods
